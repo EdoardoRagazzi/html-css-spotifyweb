@@ -5,6 +5,7 @@
 }
 .container-fluid{
     width: 100%;
+   
 }
 [class*="col-"] {
     flex: 0 0 auto;
