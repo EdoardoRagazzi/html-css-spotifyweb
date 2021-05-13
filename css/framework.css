@@ -2,6 +2,8 @@
 
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
+body{ font-family: 'Montserrat', sans-serif;}
+
 .container-fluid {width: 100%;}
 
 .row{display: flex; flex-wrap: wrap;}
@@ -149,6 +151,7 @@
 .prelative{ position:relative;}
 .pabsolute{ position:absolute;}
 .pfixed{ position:fixed;}
+
 
 
 /* ——————————————————————————— */
