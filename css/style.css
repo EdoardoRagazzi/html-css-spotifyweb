@@ -28,9 +28,10 @@ main.debug {
 }
 
 .debug .lower-sidebar{
-    height:150px;
+    height:100px;
     background-color:red;
     flex-shrink: 1;
+    z-index: 2;
 }
 
 /* Sidebar */
@@ -73,6 +74,7 @@ main.debug {
 .temp-height{
     overflow-y: auto;
     height:50%;
+    min-height: 120px;
    
 }
 
@@ -82,4 +84,22 @@ footer{
     bottom:0;
     left:0;
     width:100%;
+    z-index: 3;
+}
+
+/*--------NAV-------- */
+ul{
+    list-style: none;
+
+}
+.sidebar-menu ul li a img{
+    height: 30px;
+    vertical-align: middle;
+    margin: 0 5px 10px 0;
+}
+li i{
+    font-size: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
+
 }
