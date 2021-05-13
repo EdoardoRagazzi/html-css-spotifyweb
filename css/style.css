@@ -43,11 +43,7 @@ main.debug {
     border-bottom: 2px solid lightgrey;
 
 }
-.lower-sidebar i{
 
-
-
-}
 .logo img{
     width:70%;
 }
@@ -111,4 +107,16 @@ li i{
     margin-right: 5px;
     color: lightslategray;
 
+}
+
+.pfixed .left{
+    background-color: teal;
+    width: 20%;
+    height: 100px ;
+}
+.pfixed .center{
+    background-color:brown;
+}
+.pfixed .right{
+    background-color:teal;
 }

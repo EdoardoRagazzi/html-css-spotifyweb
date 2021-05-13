@@ -6,7 +6,7 @@ body{ font-family: 'Montserrat', sans-serif;}
 
 .container-fluid {width: 100%;}
 
-.row{display: flex; flex-wrap: wrap;}
+.row{display: flex; }
 
 .row-vert{ flex-direction: column;}
 
