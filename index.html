@@ -5,40 +5,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Framework -->
     <link rel="stylesheet" href="css/framework.css">
+
+    <!-- My css -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Spotify Web</title>
+
+    <title>Spotify</title>
 </head>
 
-<body>
+<body class="debug">
     <div class="container-fluid">
-        <div class="row main-nav">
-            <div class="col-xs-2">
-                <div class="nav">
-                    <div class="row">
-                        <div class="box">
-                            <img id="logo" src="img/logo.svg" alt="">
+
+        <!-- Main start -->
+        <main class="debug">
+
+            <div class="row">
+                <!-- sidebar start -->
+                <aside class="col-xs-2">
+                    <div class="row row-vert justify-between sidebar-container">
+
+                        <div class="upper-sidebar">
+                            <div class="logo mb-20 p-15">
+                                <img src="img/logo.svg" alt="Logo">
+                            </div>
+
+                            <nav class="sidebar-menu mb-20">
+                                <ul>
+                                    <li>Lorem</li>
+                                    <li>Lorem</li>
+                                    <li>Lorem</li>
+                                </ul>
+                            </nav>
+
+                            <nav class="playlist-menu">
+                                <ul>
+                                    <li>Playlist</li>
+                                    <li>Crea Playlist</li>
+                                </ul>
+
+                                <ul class="temp-height">
+                                    <li>ciao</li>
+                                    <li>ciao</li>
+                                    <li>ciao</li>
+                                    <li>ciao</li>
+                                    <li>ciao</li>
+                                    <li>ciao</li>
+                                    <li>ciao</li>
+                                    <li>ciao</li>
+                                    <li>ciao</li>
+                                    <li>ciao</li>
+                                    <li>ciao</li>
+                                    <li>ultimo ciao</li>
+                                </ul>
+                            </nav>
                         </div>
+
+                        <!-- John doe start -->
+                        <div class="lower-sidebar">
+                            John Doe
+                        </div>
+                        <!-- John doe end -->
                     </div>
+                </aside>
+                <!-- sidebar end -->
+
+
+                <!-- main content start -->
+                <div class="main-content col-xs-10">
+                    <div class="box"></div>
                 </div>
+                <!-- main content end -->
             </div>
-            <div class="col-xs-10">
-                <div class="main">
-                    <div class="row">
-                        <div class="col-sx-12 header"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row footer">
-            <div class="col-xs-12">
-                <div class="foot"></div>
-            </div>
-        </div>
+
+        </main>
+        <!-- Main end -->
+
+        <!-- foot start -->
+        <footer class="pfixed">
+
+        </footer>
+        <!-- foot end -->
+
     </div>
-
-
-
 </body>
 
 </html>
