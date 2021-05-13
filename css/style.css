@@ -14,7 +14,7 @@ main.debug {
     height:100%;
     background-color:#141922;
 }
-.debug .box{
+.debug .boxmain{
     height:calc(100vh - 100px);
 }
 .debug .upper-sidebar,
@@ -131,13 +131,13 @@ li i{
 }
 
 
-.yellow{
+.box{
     background-color: yellow;
     height: 50%;
     width: 100%;
+    border: 1px solid green;
+    text-align: center;
 }
-.green{
-    background-color: green;
-    height: 50%;
-    width: 100%;
+.center i{
+    color: white;
 }
