@@ -115,29 +115,31 @@ li i{
 
 }
 .pfixed .left{
-    background-color: teal;
+    background-color:#282828;
     width: 5%;
     height: 100px ;
     vertical-align: middle;
 }
-.pfixed .center{
-    background-color:brown;
-}
-.pfixed .right{
-    background-color:teal;
-}
-.heartfolder{
-
-}
-
-
 .box{
-    background-color: yellow;
+    background-color:#282828;
     height: 50%;
     width: 100%;
-    border: 1px solid green;
+    border: 1px solid #282828;
     text-align: center;
 }
 .center i{
     color: white;
+}
+.bar{
+    background-color: lightgray ;
+    border-radius: 5px;
+    width: 50%;
+    height: 5px;
+    margin: 5px auto;
+}
+.progress{
+    background-color:lightslategrey;
+    width: 70px;
+    height: 5px;
+    border-radius: 5px;
 }
