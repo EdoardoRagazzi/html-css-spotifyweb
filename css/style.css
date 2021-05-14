@@ -78,6 +78,35 @@ aside{
 }
 .cover-container{
     padding: 10px;
+    position: relative;
+    display: flex;
+}
+.cover-layover{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.cover-container:hover .image{
+    opacity: 3;
+}
+  
+.cover-container:hover .cover-layover {
+    opacity: 1;
+}
+  
+
+.cover-layover:hover{
+    display: flex;
+}
+.cover-layover i {
+    color: white;
+    font-size: 50px;
+
 }
 .main-content-menu{
     padding-top:90px;
