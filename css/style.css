@@ -92,13 +92,20 @@ aside{
     text-align: center;
 }
 .cover-container:hover .image{
-    opacity: 3;
+    opacity: 0.3;
 }
   
 .cover-container:hover .cover-layover {
     opacity: 1;
 }
-  
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
 
 .cover-layover:hover{
     display: flex;
