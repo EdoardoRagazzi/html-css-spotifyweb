@@ -74,8 +74,8 @@ aside{
     height: calc(100vh - 100px);
     overflow-x: hidden;
     overflow-y: auto;
-
 }
+/* cover-layover */
 .cover-container{
     padding: 10px;
     position: relative;
@@ -105,7 +105,7 @@ aside{
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-  }
+}
 
 .cover-layover:hover{
     display: flex;
@@ -115,6 +115,10 @@ aside{
     font-size: 50px;
 
 }
+.fixed{
+    flex: 1 1 auto;
+}
+
 .main-content-menu{
     padding-top:90px;
     text-align:center;
@@ -138,6 +142,7 @@ aside{
     border-bottom: 2px solid lightgrey;
 
 }
+
 
 .logo img{
     width:70%;
@@ -163,6 +168,7 @@ aside{
     height:80%;
     /* min-height:400px; */
 }
+
 .temp-height{
     overflow-y: auto;
     height:50%;
