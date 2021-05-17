@@ -144,6 +144,34 @@ aside{
     color: lightslategray;
     font-weight: 900;
 }
+.artisti .cover-container img{
+    border-radius: 50%;
+}
+h2{
+    color: white;
+    font-weight: 900;
+    padding-left: 5%;
+}
+h3{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.recently p{
+    font-size: 10px;
+    font-weight: 600;
+    color: lightslategray;
+    text-align: center;
+}
+.creato  p, .artisti p{
+    font-size: 10px;
+    font-weight: 600;
+    color: lightslategray;
+    padding-left: 5%;
+}
+.creato .cover-text, .artisti .cover-text{
+    text-align: center;
+}
 /* Sidebar debug part */
 
 .debug .logo{
