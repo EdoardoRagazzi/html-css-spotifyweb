@@ -12,6 +12,8 @@ body{ font-family: 'Montserrat', sans-serif;}
 
 [class*="col-"] {flex: 0 0 auto;} 
 
+.height{ height: 100%;}
+
 /* —————————————— Flex alignments —————————————— */
 
 .flex-center{align-items: center; justify-content: center;}

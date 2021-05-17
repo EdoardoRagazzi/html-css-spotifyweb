@@ -29,6 +29,9 @@ main.debug {
     text-align: center;
 
 }
+.debug .row .height{
+    height: 100%;
+}
 /* Sidebar */
 aside{
     min-width: 100px;
@@ -46,18 +49,6 @@ aside{
     background-color: rgba(0,0,0,0.5);
     text-align: right;
     padding-right: 100px;
-}
-@media screen and (min-width:567px){
-    .sidebar-container{
-        min-width:230px;
-    }
-    aside{
-        min-width: 230px;
-    }
-    .call-to-action{
-        width: calc(100% - 100px);
-       
-    }
 }
 
 .call-to-action  .btn{
@@ -147,21 +138,18 @@ aside{
 .logo img{
     width:70%;
 }
-
+/*-----------MENU LISTA------------ */
+.menu-list li{
+    font-size: 15px;
+    color: lightslategray;
+    font-weight: 900;
+}
 /* Sidebar debug part */
 
 .debug .logo{
     width:100%;
     background-color: #000;
 }
-
-/* 
-.debug .sidebar-menu{
-    height:120px;
-}
-.debug .playlist-menu{
-    height:200px;
-} */
 
 .playlist-menu{
     overflow:hidden;
@@ -259,3 +247,5 @@ li i{
     color: white;
     padding: 0 5px;
 }
+
+/*--------MEDIA QUERY---------- */
