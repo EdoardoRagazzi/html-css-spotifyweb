@@ -214,7 +214,14 @@ footer{
     font-size:10px;
     color: lightslategray;
 }
+.text {
+    padding-right: 50%;
+}
+.icon{
+     padding-right: 2%;
+}
 .icon i{
+   
     color: lightslategray;
 }
 .center i:hover, .right i:hover{
