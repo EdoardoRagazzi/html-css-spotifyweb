@@ -152,7 +152,7 @@ h2{
     font-weight: 900;
     padding-left: 5%;
 }
-h3{
+.cover-text h3{
     color: white;
     font-weight: 700;
     text-align: center;
@@ -203,6 +203,19 @@ footer{
     left:0;
     width:100%;
     z-index: 3;
+}
+.text h3{
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+    margin: 0;
+}
+.text p{
+    font-size:10px;
+    color: lightslategray;
+}
+.icon i{
+    color: lightslategray;
 }
 /*--------NAV-------- */
 ul{
