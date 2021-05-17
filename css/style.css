@@ -217,6 +217,16 @@ footer{
 .icon i{
     color: lightslategray;
 }
+.center i:hover, .right i:hover{
+    cursor: pointer;
+
+}
+.far{
+    font-size: 150%;
+} 
+.right{
+    padding-right: 3%;
+}
 /*--------NAV-------- */
 ul{
     list-style: none;
