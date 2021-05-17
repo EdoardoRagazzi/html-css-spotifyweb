@@ -307,6 +307,17 @@ li i{
 }
 
 /*--------MEDIA QUERY---------- */
+@media screen and (max-width:693px){
+    .box .ora{
+        display: none;
+    }
+    .right{
+        flex-wrap: wrap;
+
+
+    }
+}
+
 @media screen and (min-width:567px){
     .sidebar-container{
         min-width:230px;
@@ -319,7 +330,23 @@ li i{
 
     }
     .row{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         padding:0;
     }
+    
+    
 }
+
+@media screen and (max-width:360px){
+    .playlist-menu h2, li{
+        font-size: 10px;
+    }
+    .recently h2, .creato h2, .artisti h2{
+        font-size: 15px;
+    }
+    .cover-text h3, p {
+        font-size: 15px;
+    }
+}
+
+
